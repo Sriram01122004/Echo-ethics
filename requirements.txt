@@ -1,0 +1,40 @@
+# EchoEthics-ML Dependencies
+# Python 3.11.x required
+# This project requires Python 3.11 for compatibility with ML frameworks
+
+# Core ML/AI Libraries
+openai-whisper==20231117
+transformers==4.40.1
+tokenizers>=0.19,<0.20
+
+# PyTorch Ecosystem (CPU version for Python 3.11)
+torch==2.2.1
+torchaudio==2.2.1
+
+# Speaker Diarization
+pyannote.audio==3.1
+
+# Audio Processing & Speech Recognition
+librosa==0.10.2
+soundfile==0.12.1
+speechbrain==0.5.16
+
+# Data Processing
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.4.2
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.22.0
+
+# Web Dashboard
+streamlit==1.36.0
+
+# PDF Generation
+fpdf2==2.7.8
+
+# Utilities
+typing_extensions==4.12.0
